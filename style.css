@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./img/software-developer-6521720_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-img h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #041F60;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav h2 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: cyan;
+}
+
+nav h2 span {
+    font-style: italic;
+    color: #CBEBF5;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+main .profile {
+    display: block;
+    text-align: center;
+}
+
+.profile img {
+    margin: 20px 0 0 0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 0 10px #000);
+    transition: ease 0.5s;
+}
+
+
+.desc-profile {
+    margin: 10px auto;
+    width: 30%;
+    text-align: justify;
+    transition: ease 0.5s;
+}
+
+.profile img:hover,
+.desc-profile:hover {
+    transform: scale(1.1);
+}
+
+.edu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.university,
+.program-study {
+    width: 30%;
+    text-align: center;
+}
+
+.university img {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 0 10px #000);
+    transition: ease 0.5s;
+}
+
+.desc-university,
+.desc-study {
+    margin: 10px auto;
+    text-align: justify;
+    transition: ease 0.5s;
+}
+
+
+.program-study img {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 0 10px #000);
+    transition: ease 0.5s;
+}
+
+.university img:hover,
+.desc-university:hover,
+.program-study img:hover,
+.desc-study:hover {
+    transform: scale(1.1);
+}
+
+.portfolio {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: 3.5rem 0;
+}
+
+.portfolio-list img {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0 0 10px #000);
+    transition: ease 0.5s;
+}
+
+.portfolio-list img:hover {
+    transform: scale(1.1);
+}
+
+.title-portfolio {
+    text-align: center;
+    margin: 2.5rem;
+    text-decoration: underline;
+}
+
+
+hr {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.contact {
+    margin-top: -5px;
+    width: 100%;
+    height: auto;
+}
+
+.content-contact {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.title-contact {
+    text-align: center;
+}
+
+.contact-me {
+    margin-left: 50px;
+    width: 30%;
+    height: auto;
+}
+
+.contact-me label,
+input {
+    display: block;
+}
+
+.contact-me input {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+#messeage {
+    height: 130px;
+    width: 100%;
+}
+
+.contact-me button {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #041F60;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 32.5%;
+    height: auto;
+}
+
+.wa,
+.email,
+.github {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.wa img {
+    width: 50px;
+    height: 50px;
+}
+
+.wa h2,
+.email h2,
+.github h2 {
+    margin-left: 10px;
+}
+
+.email img {
+    width: 50px;
+    height: 40px;
+}
+
+.github img {
+    width: 50px;
+    height: 50px;
+}
+
+.wrap-contact {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 7px 0;
+    color: #000;
+}
+
+footer p {
+    text-align: center;
+}
